@@ -25,13 +25,13 @@ import {
           variant="ghost"
         />
         <MenuList>
-          <MenuItem as="a" href="/#about">
-            About Us
+          <MenuItem as="a" href="#">
+            Try AR
           </MenuItem>
-          <MenuItem as="a" href="/#services">
-            Services
+          <MenuItem as="a" href="#">
+            Recommendations
           </MenuItem>
-          <MenuItem as="a" href="/#contact">
+          <MenuItem as="a" href="#">
             Contact Us
           </MenuItem>
         </MenuList>

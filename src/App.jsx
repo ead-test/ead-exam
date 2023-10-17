@@ -6,6 +6,7 @@ import customTheme from "./theme";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Stats from "./components/Stats";
+import About from "./components/About";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <Stats />
+      <About />
     </ChakraProvider>
   );
 }
