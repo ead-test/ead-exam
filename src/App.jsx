@@ -9,6 +9,7 @@ import Stats from "./components/Stats";
 import About from "./components/About";
 import Features from "./components/Features";
 import Testimonial from "./components/Testimonial";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Features />
       <Testimonial />
+      <Contact />
     </ChakraProvider>
   );
 }
