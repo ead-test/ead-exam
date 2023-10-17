@@ -1,9 +1,15 @@
 import React from "react";
 import "./index.css";
+import { Button, ChakraProvider } from "@chakra-ui/react";
+import "./index.css";
+import customTheme from "./theme";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div>Hello World</div>
+    <ChakraProvider theme={customTheme}>
+      <Navbar />
+    </ChakraProvider>
   );
 }
 
