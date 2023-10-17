@@ -21,9 +21,9 @@ import {
               <Text fontWeight="bold" color="primary.500">ShopSavvy+</Text>
             </HStack>
             <HStack fontWeight="bold" gap={5} color="gray.600">
-              <Link display={["none", "none", "block"]} href="/#about">About Us</Link>
-              <Link display={["none", "none", "block"]} href="/#services">Services</Link>
-              <Link display={["none", "none", "block"]} href="/#contact">Contact Us</Link>
+              <Link display={["none", "none", "block"]} href="#">Try AR</Link>
+              <Link display={["none", "none", "block"]} href="#">Recommendations</Link>
+              <Link display={["none", "none", "block"]} href="#">Cart</Link>
               <Button size="sm">Login</Button>
               <Button size="sm">Sign Up</Button>
               <NavMenu />
