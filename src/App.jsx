@@ -5,12 +5,14 @@ import "./index.css";
 import customTheme from "./theme";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Stats from "./components/Stats";
 
 function App() {
   return (
     <ChakraProvider theme={customTheme}>
       <Navbar />
       <Hero />
+      <Stats />
     </ChakraProvider>
   );
 }
